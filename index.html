@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitesh Anand - Senior Specialist | Advanced Packaging & Laser Microfabrication</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f4f4;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: #2a5298;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        nav ul li {
+            margin: 0 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        
+        nav ul li a:hover {
+            opacity: 0.7;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #1e3c72;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #2a5298;
+            padding-bottom: 0.5rem;
+        }
+        
+        .education-item, .skill-category {
+            margin-bottom: 2rem;
+        }
+        
+        .education-item h3 {
+            color: #2a5298;
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .education-item p {
+            color: #666;
+            margin-bottom: 0.3rem;
+        }
+        
+        .skill-category h3 {
+            color: #2a5298;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            margin-top: 1.5rem;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .skill-category ul li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+        
+        .skill-category ul li:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #2a5298;
+            font-weight: bold;
+        }
+        
+        .publication {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #2a5298;
+            border-radius: 4px;
+        }
+        
+        .publication p {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .stat-box {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+        }
+        
+        .stat-box h3 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-box p {
+            font-size: 1rem;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+        
+        .contact-info a:hover {
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            section {
+                padding: 2rem 1.5rem;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nitesh Anand, Ph.D.</h1>
+        <p>Senior Specialist | Advanced Packaging & Laser Microfabrication</p>
+        <p>GMM Corporation, Taiwan</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8; color: #555;">
+                With over 6 years of specialized experience in thermal management and air/fluid flow analysis for precision equipment and laser micro-fabrication processes, I currently serve as a Senior Specialist at GMM Corporation in Taiwan, focusing on Research & Development. My expertise spans advanced packaging technologies, precision equipment design, and computational modeling for manufacturing processes.
+            </p>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <h3>6+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Ph.D.</h3>
+                    <p>Mechanical Engineering</p>
+                </div>
+                <div class="stat-box">
+                    <h3>4+</h3>
+                    <p>Research Publications</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>Ph.D. in Mechanical Engineering</h3>
+                <p><strong>National Tsing Hua University (NTHU)</strong> | Taiwan</p>
+                <p>Focus: Advanced Manufacturing, Thermal Management, Laser Processing</p>
+            </div>
+            
+            <div class="education-item">
+                <h3>M.Tech in Mechanical Engineering</h3>
+                <p><strong>Indian Institute of Technology Kharagpur (IIT KGP)</strong> | India</p>
+                <p>Specialization: Manufacturing Processes</p>
+            </div>
+        </section>
+        
+        <section id="expertise">
+            <h2>Areas of Expertise</h2>
+            
+            <div class="skill-category">
+                <h3>1. Chip/Die Bonder (TCB)</h3>
+                <ul>
+                    <li>Die precision bonding analysis</li>
+                    <li>Mechanical and thermal deformation analysis</li>
+                    <li>Particle flow analysis</li>
+                    <li>Industry Partners: TSMC, MICRON, SPIL</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>2. Laser Assisted Bonding</h3>
+                <ul>
+                    <li>New product development</li>
+                    <li>Mechanical design and optimization</li>
+                    <li>Advanced thermal management solutions</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>3. Chip/Die Sorter and Die Bonder</h3>
+                <ul>
+                    <li>Particle control analysis</li>
+                    <li>Design of exhaust systems</li>
+                    <li>Air flow analysis for CLASS 1000 and CLASS 100 equipment</li>
+                    <li>Cleanroom environment optimization</li>
+                </ul>
+            </div>
+            
+            <div class="skill-category">
+                <h3>Core Technical Skills</h3>
+                <ul>
+                    <li>Thermal Management & Heat Transfer Analysis</li>
+                    <li>Computational Fluid Dynamics (CFD)</li>
+                    <li>Finite Element Analysis (FEA)</li>
+                    <li>Selective Laser Melting (SLM) Process Modeling</li>
+                    <li>Precision Equipment Design</li>
+                    <li>Advanced Packaging Technologies</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="publications">
+            <h2>Selected Publications</h2>
+            
+            <div class="publication">
+                <p><strong>Anand, N.</strong>, Chang, K.-C., Yeh, A.-C., Chen, Y.-B., and Lee, M.-T., 2023, "Development of a comprehensive model for predicting melt pool characteristics with dissimilar materials in selective laser melting processes," <em>Journal of Materials Processing Technology</em>, Vol. 319, 118069.</p>
+            </div>
+            
+            <div class="publication">
+                <p><strong>Anand, N.</strong>, Chang, K.-C., Yeh, A.-C., Chen, Y.-B., and Lee, M.-T., 2022, "An Efficient Transient Three-dimensional Thermomechanical Modeling of Dynamic Thermal Stress Building and Releasing in a Selective Laser Melting Process," <em>Journal of Materials Processing Technology</em>, Vol. 309, p. 117741-1/17.</p>
+            </div>
+            
+            <div class="publication">
+                <p><strong>Anand, N.</strong>, Chang, K.-C., Huang, P.-C., Yeh, A.-C., Tsai, C.-W., Lee, C.-C., Lee, M.-T., and Chen, Y.-B., 2021, "An Effective and Efficient Model for Thermal Analysis and Molding Appearance Control for Selective Laser Melting Process," <em>Journal of Materials Processing Technology</em>, Vol. 294, p. 117109-1/14.</p>
+            </div>
+            
+            <div class="publication">
+                <p><strong>Anand, N.</strong>, Kumar, A.S., Paul, S, 2019, "Effect of cutting fluids applied in MQCL mode on machinability of Ti-6Al-4V", <em>Journal of Manufacturing Process</em>, Vol. 43, p.154–163.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <p style="font-size: 1.1rem; color: #555; text-align: center; margin-bottom: 1rem;">
+                I'm always interested in discussing advanced packaging technologies, research collaborations, and innovative manufacturing solutions.
+            </p>
+            <div class="contact-info">
+                <p>📍 Taiwan</p>
+                <p>🏢 GMM Corporation</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Nitesh Anand. All rights reserved.</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">Senior Specialist in Advanced Packaging & Laser Microfabrication</p>
+    </footer>
+</body>
+</html>
